@@ -12,3 +12,5 @@ Contiene los siguientes archivos :
 - `clase-06-05` : Manejo de Estado
   - `Ejemplos-Sensei` : Ejemplos realizados en la clase.
   - `Proyecto-DevF` : Proyecto propuesto por Dev.F "Proyecto: Lista de Compras Interactiva".
+- `clase-06-10` : Hooks useEffect y useMemo
+  - `Proyecto-DevF` : Proyecto propuesto por Dev.F "Proyecto/Taller: Creación de un Proyecto Contador de Tareas".
