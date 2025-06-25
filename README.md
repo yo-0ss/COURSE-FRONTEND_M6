@@ -14,5 +14,11 @@ Contiene los siguientes archivos :
   - `Proyecto-DevF` : Proyecto propuesto por Dev.F "Proyecto: Lista de Compras Interactiva".
 - `clase-06-10` : Hooks useEffect y useMemo
   - `Proyecto-DevF` : Proyecto propuesto por Dev.F "Proyecto/Taller: Creación de un Proyecto Contador de Tareas".
-  - `clase-06-12` : Ciclo de vida de Componentes
+- `clase-06-12` : Ciclo de vida de Componentes
   - `Proyecto-DevF` : Proyecto propuesto por Dev.F "Proyecto: El Viaje del Explorador Espacial".
+- `clase-06-19` : Conditional Rendering y Components Composition
+  - `Ejemplos-Sensei` : Ejemplos realizados en la clase.
+  - `Proyecto-DevF` : Proyecto propuesto por Dev.F "Proyecto/Taller: Adivina el Número".
+- `clase-06-24` : Hooks Avanzados en React
+  - `Ejemplos-Sensei` : Ejemplos realizados en la clase.
+  - `Proyecto-DevF` : Proyecto propuesto por Dev.F "Proyecto/Taller: Juego de Contador y Registro de Eventos o Gestor de Inventario".

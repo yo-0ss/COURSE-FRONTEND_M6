@@ -7,8 +7,8 @@ import { Typography, Container, Paper } from "@mui/material";
 
 export default function Game() {
   const [numeroSecreto, setNumeroSecreto] = useState(generarNumeroAleatorio());
-  const [numeroUsuario, setNumeroUsuario] = useState('');
-  const [mensaje, setMensaje] = useState('');
+  const [numeroUsuario, setNumeroUsuario] = useState("");
+  const [mensaje, setMensaje] = useState("");
   const [juegoFinalizado, setJuegoFinalizado] = useState(false);
 
   function generarNumeroAleatorio() {
@@ -34,14 +34,14 @@ export default function Game() {
 
   const reiniciarJuego = () => {
     setNumeroSecreto(generarNumeroAleatorio());
-    setNumeroUsuario('');
-    setMensaje('');
+    setNumeroUsuario("");
+    setMensaje("");
     setJuegoFinalizado(false);
   };
 
   return (
     <Container maxWidth="sm" sx={{ mt: 5 }}>
-      <Paper elevation={3} sx={{ padding: 4, textAlign: 'center' }}>
+      <Paper elevation={3} sx={{ padding: 4, textAlign: "center" }}>
         <Typography variant="h4" gutterBottom>
           Adivina el Número
         </Typography>

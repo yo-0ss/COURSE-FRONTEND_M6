@@ -1,7 +1,7 @@
-import { useState } from 'react'
-import './App.css'
-import Footer from './components/Footer'
-import Header from './components/Header'
+import { useState } from "react";
+import "./App.css";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 /*//1. Uso de if y else
 function App() {
@@ -61,43 +61,41 @@ function App() {
     </section>
   )
 }*/
- 
+
 //4. Renderizado condicional con switch
 function App() {
-  const [role, setRole] = useState("viewer")
+  const [role, setRole] = useState("viewer");
 
   const renderByRole = () => {
-    switch(role){
+    switch (role) {
       case "admin":
-        return <h2>Vista de Administrador</h2>
+        return <h2>Vista de Administrador</h2>;
       case "editor":
-        return <h2>Vista de Editor</h2>
+        return <h2>Vista de Editor</h2>;
       case "viewer":
-        return <h2>Vista de Lector</h2>
+        return <h2>Vista de Lector</h2>;
       default:
-        return <h2>Vista Desconocida</h2>
+        return <h2>Vista Desconocida</h2>;
     }
-  }
+  };
 
-  return(
+  return (
     <>
-    <Header></Header>
-    <section>
-      <h1>Selecciona tu Rol:</h1>
-      <select onChange={(e) => setRole(e.target.value)} value={role}>
-        <option value="admin">Administrador</option>
-        <option value="editor">Editor</option>
-        <option value="viewer">Lector</option>
-        <option value="god">God</option>
-      </select>
-    </section>
+      <Header></Header>
+      <section>
+        <h1>Selecciona tu Rol:</h1>
+        <select onChange={(e) => setRole(e.target.value)} value={role}>
+          <option value="admin">Administrador</option>
+          <option value="editor">Editor</option>
+          <option value="viewer">Lector</option>
+          <option value="god">God</option>
+        </select>
+      </section>
 
-    <section style={{marginTop:"10px"}}>
-        {renderByRole()}
-    </section>
-    <Footer></Footer>
+      <section style={{ marginTop: "10px" }}>{renderByRole()}</section>
+      <Footer></Footer>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
