@@ -1,0 +1,29 @@
+#root {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2f3497;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: white;
+  text-decoration: underline;
+}

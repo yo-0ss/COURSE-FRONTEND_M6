@@ -22,3 +22,6 @@ Contiene los siguientes archivos :
 - `clase-06-24` : Hooks Avanzados en React
   - `Ejemplos-Sensei` : Ejemplos realizados en la clase.
   - `Proyecto-DevF` : Proyecto propuesto por Dev.F "Proyecto/Taller: Juego de Contador y Registro de Eventos o Gestor de Inventario".
+- `clase-06-26` : Manejo de Rutas
+  - `Ejemplos-Sensei` : Ejemplos realizados en la clase.
+  - `Proyecto-DevF` : Proyecto propuesto por Dev.F "Proyecto/Taller: Plataforma de Gestión de Citas Médicas".
