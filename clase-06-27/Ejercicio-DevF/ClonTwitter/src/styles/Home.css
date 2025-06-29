@@ -1,0 +1,94 @@
+.home-main {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.section-name {
+  font-size: 2em;
+  color: white;
+  margin: 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.add-tweet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-tweet p {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.tweet-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.tweet-input {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  background-color: #2f3336;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.tweet-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.tweet-input:focus {
+  outline: none;
+  border: 1px solid #1d9bf0;
+}
+.tweet-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.tweet {
+  background-color: #2f3336;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.tweet p {
+  margin: 0;
+}
+
+.tweet .username {
+  font-weight: bold;
+  color: #1d9bf0;
+}
+.tweet-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}

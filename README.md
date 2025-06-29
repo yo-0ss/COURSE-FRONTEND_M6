@@ -25,3 +25,6 @@ Contiene los siguientes archivos :
 - `clase-06-26` : Manejo de Rutas
   - `Ejemplos-Sensei` : Ejemplos realizados en la clase.
   - `Proyecto-DevF` : Proyecto propuesto por Dev.F "Proyecto/Taller: Plataforma de Gestión de Citas Médicas".
+- `clase-06-27` : Proyecto Final Intro a React
+  - `Ejemplos-Sensei` : Ejemplos realizados en la clase.
+  - `Proyecto-DevF` : Proyecto propuesto por Dev.F "Proyecto: Autenticación y Protección de Rutas en el Clon de Twitter".
